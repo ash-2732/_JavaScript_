@@ -1,0 +1,39 @@
+.btn,
+.image,
+.inputtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    margin-top: 200px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#generate{
+    margin-right: 2px;
+}
+
+.same{
+    border: 1px solid tomato;
+    background-color: tomato;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    height: 30px;
+}
+
+.same:hover{
+    transition: all 0.2s ease;
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
+    box-shadow: 0px 0px 10px brown;
+}
